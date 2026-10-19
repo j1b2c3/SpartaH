@@ -3,6 +3,24 @@
 > **언리얼 엔진 5.5 기반 1인칭 잠입 액션 슈터 게임**  
 > 스파르타 코딩클럽 내배캠 언리얼 트랙 8기 1팀 CH3 프로젝트
 
+## 👤 내 역할 — 최정빈 (기획 · PM)
+
+> 5인 팀 프로젝트 [NBcampUnrealTrack/8th-Team1-CH3-Project](https://github.com/NBcampUnrealTrack/8th-Team1-CH3-Project) 백업입니다. 제가 맡은 범위와 대표 커밋을 정리했습니다. · [기획 포트폴리오 (Notion)](https://www.notion.so/3fb5b2866264812a9bccc18ac9a6b783)
+
+| 구분 | 범위 |
+|---|---|
+| 기획 · PM | 장르 전환 레벨 구조(1F~3F 잠입 → 3F 서버실 데이터 확보 → 12F 보스 · 인질 → 옥상 탈출), 5단계 경계 AI 상태 머신, 적 명중률 · 대미지 3차 조정, 소음 · 감지 범위 통일 |
+| 직접 구현 | 인게임 UI · 인벤토리, 체크포인트 세이브 · 리스폰, 적 사격 밸런스, 데이터 에셋 기반 미션 진행(팀원과 공동) |
+
+**대표 커밋**
+- [`14ff938`](https://github.com/j1b2c3/SpartaH/commit/14ff93846c1b19766ffac5147029063a84b3d3bb) 적 명중을 확률 판정으로 변경 (1차)
+- [`fe45376`](https://github.com/j1b2c3/SpartaH/commit/fe4537664c149eb1932a9502dea13240552b3767) 명중률 30% → 70% · 대미지 15 → 9 (2차), UI 델리게이트 리팩토링
+- [`fc79655`](https://github.com/j1b2c3/SpartaH/commit/fc796555fe3f3e48ce234b14bd629e07fb73c2e3) 명중률 70% → 60% · 대미지 9 → 6 (3차)
+- [`cdcccc5`](https://github.com/j1b2c3/SpartaH/commit/cdcccc53f4a831f08c565580a0bd8f8f267613a0) 적 사격 간격 · 점사 대기 랜덤화
+- [`281ec5b`](https://github.com/j1b2c3/SpartaH/commit/281ec5b2a3c319b7fe1d08d88e63629bc7d73150) 적 감지 범위를 현재 소음 × 10으로 통일
+- [`a2bf601`](https://github.com/j1b2c3/SpartaH/commit/a2bf601eb17c330e8bc0d851e10e58e20abffb5b) 세이브 시 열쇠 보유 저장, 인질 사망 시 실패 UI
+
+
 ---
 
 ## 🎬 플레이 영상
