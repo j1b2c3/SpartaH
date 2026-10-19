@@ -25,7 +25,7 @@
 
 ## 🎬 플레이 영상
 
-[![Sparta_H 플레이 영상](https://img.youtube.com/vi/ecklhQSUvD0/0.jpg)](https://youtu.be/ecklhQSUvD0?si=_HgBCQFw7UTjxx9m)
+[![Sparta_H 플레이 영상](https://img.youtube.com/vi/wawi3ztEXLk/0.jpg)](https://youtu.be/wawi3ztEXLk?si=BvjZDYub9fDlf5_2)
 
 ---
 
